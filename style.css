@@ -1,0 +1,100 @@
+body {
+     background-color:#f8f7ff;
+}
+
+h2 {
+    color: #9381ff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center
+}
+#bannerimage {
+    width: 100%;
+    background-image: url(https://cdn.mmoculture.com/mmo-images/2023/03/Solo-Leveling-ARISE.png);
+    height: 405px;
+    background-color: purple;
+    background-position: center;
+  }
+  .container {
+    display: flex; 
+    justify-content: space-between; 
+    gap: 10px; 
+    flex-wrap: wrap; 
+}
+.info-box {
+    border: 1px solid #ccc; 
+    padding: 20px; 
+    border-radius: 8px; 
+    background-color: #f9f9f9; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    flex: 1; 
+    min-width: 200px; 
+    max-width: 300px; 
+}
+.info-box h2 {
+    margin-top: 0; 
+    font-size: 18px; 
+}
+.info-box p {
+    margin: 0; 
+    font-size: 14px; 
+}
+footer {
+    background-color: #b8b8ff;
+}
+.copyright-disclaimer {
+    font-size: 12px;
+    margin-top: 50px;
+  }
+  .telegram-ad {
+    text-align: center;
+    margin: 20px 0;
+  }
+  .calligraphy-heading {
+    font-family: 'Great Vibes', cursive; 
+    font-size: 3em; 
+    color: #333; 
+    margin: 40px 0; 
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); 
+    text-align: center;
+}
+.xcxc,.xcxx,.xcvv,.xcxb {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    gap: 20px; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+.box {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.box img {
+    width: 50px;
+    height: auto;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+.box .text {
+    font-size: 16px;
+    color: #333;
+        }
+        .box .text a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        .box .text a:hover {
+            text-decoration: underline;
+        }
+        .box-number {
+            font-size: 20px;
+            font-weight: bold;
+            color: #333;
+            margin-right: 10px;
+        }
+        
